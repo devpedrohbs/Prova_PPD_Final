@@ -1,0 +1,154 @@
+<mxfile host="65bd71144e">
+    <diagram id="kMnUJKvWAzF22GBGgxp6" name="Page-1">
+        <mxGraphModel dx="1132" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="TelnetServer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="57" width="240" height="182" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="+ NUMBER_OF_PHILOSOPHERS : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="26" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="+ forks: Fork[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="52" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="+ philosophers: List" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="78" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="---------------------------------------------------------" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="104" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt;&amp;nbsp;main(String[] args): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="130" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; getPhilosophers(): List&lt;span class=&quot;hljs-operator&quot;&gt;&amp;lt;&lt;/span&gt;Philosopher&lt;span class=&quot;hljs-operator&quot;&gt;&amp;gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry y="156" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Fork" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="57" width="240" height="156" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; inUse: &lt;span class=&quot;hljs-type&quot;&gt;boolean&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry y="26" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="---------------------------------------------------------" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry y="52" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; isBeingUsed(): &lt;span class=&quot;hljs-type&quot;&gt;boolean&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry y="78" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; pickUp(philosopher: Philosopher): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry y="104" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;release&lt;/span&gt;(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry y="130" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Philosopher" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="450" width="240" height="312" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; id: &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                    <mxGeometry y="26" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; thoughts: &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                    <mxGeometry y="52" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; meals: &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                    <mxGeometry y="78" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; leftFork: Fork&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                    <mxGeometry y="104" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; rightFork: Fork&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                    <mxGeometry y="130" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="---------------------------------------------------------" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                    <mxGeometry y="156" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; getId(): &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                    <mxGeometry y="182" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="+ think(): void   " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                    <mxGeometry y="208" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; eat(): void&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                    <mxGeometry y="234" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; releaseForks(): void&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                    <mxGeometry y="260" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; getStatus(): String&amp;nbsp; &amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="18" vertex="1">
+                    <mxGeometry y="286" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="PhilosopherManager" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="430" width="350" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; socket: Socket" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="30" vertex="1">
+                    <mxGeometry y="26" width="350" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;in&lt;/span&gt;: BufferedReader&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="30" vertex="1">
+                    <mxGeometry y="52" width="350" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;out&lt;/span&gt;: PrintWriter&amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="30" vertex="1">
+                    <mxGeometry y="78" width="350" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; currentPhilosopher: Philosopher&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="30" vertex="1">
+                    <mxGeometry y="104" width="350" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; philosophers: ConcurrentHashMap&lt;span class=&quot;hljs-operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;hljs-type&quot;&gt;Integer&lt;/span&gt;, Philosopher&lt;span class=&quot;hljs-operator&quot;&gt;&amp;gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="30" vertex="1">
+                    <mxGeometry y="130" width="350" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="-----------------------------------------------------------------------------------" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="30" vertex="1">
+                    <mxGeometry y="156" width="350" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; run(): void&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="30" vertex="1">
+                    <mxGeometry y="182" width="350" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; getPhilosophers(): ConcurrentHashMap&lt;span class=&quot;hljs-operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;hljs-type&quot;&gt;Integer&lt;/span&gt;, Philosopher&lt;span class=&quot;hljs-operator&quot;&gt;&amp;gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="30" vertex="1">
+                    <mxGeometry y="208" width="350" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.016;exitY=0.661;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="140" as="sourcePoint"/>
+                        <mxPoint x="440" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="Composição" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="39" connectable="0" vertex="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="endArrow=classic;html=1;exitX=0.769;exitY=1.205;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="250" as="sourcePoint"/>
+                        <mxPoint x="470" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="Composição" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=classic;html=1;entryX=-0.006;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="450" as="sourcePoint"/>
+                        <mxPoint x="350" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.078;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="30" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="490" as="sourcePoint"/>
+                        <mxPoint x="470" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="Dependência" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.381;entryY=1.103;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="18" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="190" y="349.99999999999994" as="sourcePoint"/>
+                        <mxPoint x="140" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="Dependência" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
